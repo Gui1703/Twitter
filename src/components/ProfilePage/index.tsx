@@ -5,6 +5,7 @@ import {
   Banner,
   CakeIcon,
   Container,
+  EditButton,
   Followage,
   LocationIcon,
   ProfileData,
@@ -46,6 +47,8 @@ const ProfilePage: React.FC = () => {
           </span>
         </Followage>
       </ProfileData>
+
+      <Feed />
     </Container>
   );
 };
